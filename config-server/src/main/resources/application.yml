@@ -1,0 +1,12 @@
+server:
+  port: 8880
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Ossayeb37/config-server-eval-archiYNOV.git
+          default-label: main
